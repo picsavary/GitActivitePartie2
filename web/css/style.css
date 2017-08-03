@@ -1,0 +1,14 @@
+body {
+font-size : 1em;
+color : grey;
+font-family : Arial, Helvetica, Times;
+}
+h1 {
+font-size : 110%;
+color : #357AB7;
+}
+a {
+color : inherit ;
+text-decoration: none;
+font-style : italic ;
+}
