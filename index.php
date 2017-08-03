@@ -320,6 +320,7 @@ foreach($arrayNames as $name) {
 <link href="web/css/style.css" rel="stylesheet"></head>
 <h1>'.$name.'</h1>
 <a href="index.php">Home</a>
+<div class="container">Your content will be there !</div>
 </body>
 </html>
 </div>
@@ -340,7 +341,7 @@ foreach($arrayNames as $name) {
 <title>Mythologie grecque (essai de lexique) - Accueil</title>
 <link href="web/css/style.css" rel="stylesheet"></head>
 </head>
-<h1>
+<h1>Mythologie grecque (essai de lexique) - Accueil</h1>
 <?php 
 echo nl2br($liste); 
 ?>
