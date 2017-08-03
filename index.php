@@ -5,7 +5,7 @@ function clean($string) {
 
 	return $string;
 }
-$arrayNames = array('Achæos',
+$names = array('Achæos',
 'Achéloos',
 'Achille',
 'Acis',
@@ -305,7 +305,7 @@ $arrayNames = array('Achæos',
 $liste = '';
 $ecriture = '';
 $handle = '';
-foreach($arrayNames as $name) {
+foreach($names as $name) {
 	if(is_file(clean($name).'.php')) {
 		$file = clean($name).'.php';
 		$liste .= '
